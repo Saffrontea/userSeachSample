@@ -28,7 +28,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		os.Getenv("B_HOST"),
 		os.Getenv("B_PORT"),
 		os.Getenv("B_DBNAME"),
-	)
+	) //It'll be like 'test:pass@tcp(localhost:3306)/test'
 	db, err := sqlx.Open("mysql", dataSource)
 	defer func(db *sqlx.DB) {
 		err := db.Close()
