@@ -18,3 +18,4 @@ MariaDB [test]> select * from test limit 10;
 | 10 | vbwpUpaSm  |       65 |
 +----+------------+----------+
 ```
+![t-rec](https://user-images.githubusercontent.com/60215953/143322839-9da08dbf-863b-4af7-8cd4-2d453bdc28d1.gif)
